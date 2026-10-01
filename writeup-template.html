@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>[Назва завдання] — write-up</title>
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; script-src 'self'; img-src 'self' data:; connect-src 'none'; object-src 'none'; base-uri 'self'; form-action 'self'">
+<meta name="referrer" content="no-referrer">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <div class="brand">VARKUT<span> / SOC</span></div>
+  <div class="header-right">
+    <nav>
+      <a href="index.html" data-uk="Головна" data-en="Home">Головна</a>
+      <a href="writeups.html" class="current" data-uk="Write-up'и" data-en="Write-ups">Write-up'и</a>
+      <a href="index.html#contact" data-uk="Контакти" data-en="Contact">Контакти</a>
+    </nav>
+    <div class="lang-switch">
+      <button type="button" data-set-lang="uk" class="active">UA</button>
+      <button type="button" data-set-lang="en">EN</button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section style="border-bottom: none;">
+    <a class="back-link" href="writeups.html">&larr; <span data-uk="усі write-up'и" data-en="all write-ups">усі write-up'и</span></a>
+
+    <div class="article-meta">
+      <span class="cat">web</span>
+      <span data-uk="[назва CTF]" data-en="[CTF name]">[назва CTF]</span>
+      <span>·</span>
+      <span data-uk="[дата]" data-en="[date]">[дата]</span>
+      <span>·</span>
+      <span data-uk="[складність, напр. easy/medium/hard]" data-en="[difficulty, e.g. easy/medium/hard]">[складність, напр. easy/medium/hard]</span>
+    </div>
+
+    <h1 data-uk="[Назва завдання]" data-en="[Challenge name]">[Назва завдання]</h1>
+
+    <article>
+      <h2 data-uk="Умова" data-en="Challenge">Умова</h2>
+      <p data-uk="[Коротко опишіть, що дали учасникам: опис завдання, файли, порт, посилання.]" data-en="[Briefly describe what participants were given: challenge description, files, port, link.]">[Коротко опишіть, що дали учасникам: опис завдання, файли, порт, посилання.]</p>
+
+      <h2 data-uk="Розвідка" data-en="Recon">Розвідка</h2>
+      <p data-uk="[Що перевірили спочатку: скани, перегляд коду/трафіку, знайдені підказки.]" data-en="[What you checked first: scans, code/traffic review, hints found.]">[Що перевірили спочатку: скани, перегляд коду/трафіку, знайдені підказки.]</p>
+      <pre>$ [команда розвідки, напр. nmap -sV target]</pre>
+
+      <h2 data-uk="Експлуатація" data-en="Exploitation">Експлуатація</h2>
+      <p data-uk="[Крок за кроком: яку вразливість знайшли і як її використали.]" data-en="[Step by step: which vulnerability you found and how you exploited it.]">[Крок за кроком: яку вразливість знайшли і як її використали.]</p>
+      <pre>$ [команда/пейлоад експлуатації]</pre>
+
+      <h2 data-uk="Прапор" data-en="Flag">Прапор</h2>
+      <p data-uk="[Як саме отримали прапор.]" data-en="[How you retrieved the flag.]">[Як саме отримали прапор.]</p>
+      <span class="flag">flag&#123;placeholder_replace_me&#125;</span>
+    </article>
+  </section>
+</main>
+
+<footer>
+  <div class="footer-inner">
+    © 2026 Vitalii Yatskovskyi (varkut)
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

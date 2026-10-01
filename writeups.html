@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Write-up'и — Vitalii Yatskovskyi</title>
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; script-src 'self'; img-src 'self' data:; connect-src 'none'; object-src 'none'; base-uri 'self'; form-action 'self'">
+<meta name="referrer" content="no-referrer">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <div class="brand">VARKUT<span> / SOC</span></div>
+  <div class="header-right">
+    <nav>
+      <a href="index.html" data-uk="Головна" data-en="Home">Головна</a>
+      <a href="index.html#ctf">CTF</a>
+      <a href="writeups.html" class="current" data-uk="Write-up'и" data-en="Write-ups">Write-up'и</a>
+      <a href="index.html#contact" data-uk="Контакти" data-en="Contact">Контакти</a>
+    </nav>
+    <div class="lang-switch">
+      <button type="button" data-set-lang="uk" class="active">UA</button>
+      <button type="button" data-set-lang="en">EN</button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero" style="padding-bottom: 32px;">
+    <h1 data-uk="Write-up'и" data-en="Write-ups">Write-up'и</h1>
+    <p class="tagline" data-uk="Розбори CTF-завдань, які я або моя команда закрили на змаганнях." data-en="Breakdowns of CTF challenges that my team or I solved in competitions.">Розбори CTF-завдань, які я або моя команда закрили на змаганнях.</p>
+  </section>
+
+  <section style="border-bottom: none;">
+    <div class="writeup-list">
+      <a class="writeup-item" href="writeup-template.html">
+        <div class="writeup-meta">
+          <span class="cat">web</span>
+          <span data-uk="[назва CTF]" data-en="[CTF name]">[назва CTF]</span>
+          <span>·</span>
+          <span data-uk="[дата]" data-en="[date]">[дата]</span>
+        </div>
+        <div class="writeup-title" data-uk="[Назва завдання] — приклад write-up'а" data-en="[Challenge name] — sample write-up">[Назва завдання] — приклад write-up'а</div>
+      </a>
+      <a class="writeup-item" href="writeup-template.html">
+        <div class="writeup-meta">
+          <span class="cat">forensics</span>
+          <span data-uk="[назва CTF]" data-en="[CTF name]">[назва CTF]</span>
+          <span>·</span>
+          <span data-uk="[дата]" data-en="[date]">[дата]</span>
+        </div>
+        <div class="writeup-title" data-uk="[Додайте свій наступний write-up]" data-en="[Add your next write-up]">[Додайте свій наступний write-up]</div>
+      </a>
+    </div>
+    <p class="tagline" style="margin-top: 20px; font-size: 14px;" data-uk="Скопіюйте writeup-template.html для кожного нового розбору та додайте посилання сюди." data-en="Copy writeup-template.html for each new write-up and link it here.">Скопіюйте writeup-template.html для кожного нового розбору та додайте посилання сюди.</p>
+  </section>
+
+</main>
+
+<footer>
+  <div class="footer-inner">
+    © 2026 Vitalii Yatskovskyi (varkut)
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

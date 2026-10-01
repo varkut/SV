@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vitalii Yatskovskyi — SOC / Blue Team Analyst</title>
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; script-src 'self'; img-src 'self' data:; connect-src 'none'; object-src 'none'; base-uri 'self'; form-action 'self'">
+<meta name="referrer" content="no-referrer">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <div class="brand">VARKUT<span> / SOC</span></div>
+  <div class="header-right">
+    <nav>
+      <a href="#focus" data-uk="Фокус" data-en="Focus">Фокус</a>
+      <a href="#skills" data-uk="Навички" data-en="Skills">Навички</a>
+      <a href="#ctf">CTF</a>
+      <a href="writeups.html" data-uk="Write-up'и" data-en="Write-ups">Write-up'и</a>
+      <a href="#contact" data-uk="Контакти" data-en="Contact">Контакти</a>
+    </nav>
+    <div class="lang-switch">
+      <button type="button" data-set-lang="uk" class="active">UA</button>
+      <button type="button" data-set-lang="en">EN</button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero">
+    <div class="status">
+      <span class="dot"></span>
+      <span data-uk="моніторинг: активний" data-en="monitoring: active">моніторинг: активний</span>
+    </div>
+    <h1>Vitalii Yatskovskyi</h1>
+    <div class="alias">varkut</div>
+    <div class="role" data-uk="SOC-аналітик · Blue Team" data-en="SOC Analyst · Blue Team">SOC-аналітик · Blue Team</div>
+    <p class="tagline" data-uk="Виявлення та аналіз інцидентів інформаційної безпеки, моніторинг подій у реальному часі, реагування на загрози до того, як вони стають проблемою." data-en="Detecting and analyzing security incidents, real-time event monitoring, and responding to threats before they become a problem.">Виявлення та аналіз інцидентів інформаційної безпеки, моніторинг подій у реальному часі, реагування на загрози до того, як вони стають проблемою.</p>
+  </section>
+
+  <section id="focus">
+    <h2 data-uk="Фокус" data-en="Focus">Фокус</h2>
+    <div class="log">
+      <div class="log-row">
+        <span class="tag info">MONITORING</span>
+        <p data-uk="Цілодобовий моніторинг подій безпеки через SIEM, виявлення аномалій у мережевому та системному трафіку." data-en="Round-the-clock monitoring of security events via SIEM, detecting anomalies in network and system traffic.">Цілодобовий моніторинг подій безпеки через SIEM, виявлення аномалій у мережевому та системному трафіку.</p>
+      </div>
+      <div class="log-row">
+        <span class="tag med">DETECTION</span>
+        <p data-uk="Розробка та тюнінг правил кореляції, зниження кількості хибних спрацювань, побудова use-case'ів під нові загрози." data-en="Building and tuning correlation rules, reducing false positives, developing use cases for emerging threats.">Розробка та тюнінг правил кореляції, зниження кількості хибних спрацювань, побудова use-case'ів під нові загрози.</p>
+      </div>
+      <div class="log-row">
+        <span class="tag high">RESPONSE</span>
+        <p data-uk="Тріаж та реагування на інциденти: локалізація, збір артефактів, ескалація, документування ланцюга подій." data-en="Incident triage and response: containment, artifact collection, escalation, and documenting the event chain.">Тріаж та реагування на інциденти: локалізація, збір артефактів, ескалація, документування ланцюга подій.</p>
+      </div>
+      <div class="log-row">
+        <span class="tag info">ANALYSIS</span>
+        <p data-uk="Post-incident аналіз, кореляція логів з різних джерел, підготовка звітів та рекомендацій для покращення захисту." data-en="Post-incident analysis, correlating logs across sources, preparing reports and recommendations to improve defenses.">Post-incident аналіз, кореляція логів з різних джерел, підготовка звітів та рекомендацій для покращення захисту.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2 data-uk="Навички" data-en="Skills">Навички</h2>
+    <div class="skills">
+      <div class="skill-cell">
+        <h3>SIEM</h3>
+        <ul>
+          <li data-uk="[ваш SIEM, напр. Splunk / Wazuh]" data-en="[your SIEM, e.g. Splunk / Wazuh]">[ваш SIEM, напр. Splunk / Wazuh]</li>
+          <li data-uk="[додати]" data-en="[add]">[додати]</li>
+        </ul>
+      </div>
+      <div class="skill-cell">
+        <h3 data-uk="EDR / Ендпоінт" data-en="EDR / Endpoint">EDR / Ендпоінт</h3>
+        <ul>
+          <li data-uk="[ваш EDR-інструмент]" data-en="[your EDR tool]">[ваш EDR-інструмент]</li>
+          <li data-uk="[додати]" data-en="[add]">[додати]</li>
+        </ul>
+      </div>
+      <div class="skill-cell">
+        <h3 data-uk="Мережа" data-en="Network">Мережа</h3>
+        <ul>
+          <li>Wireshark</li>
+          <li data-uk="[додати]" data-en="[add]">[додати]</li>
+        </ul>
+      </div>
+      <div class="skill-cell">
+        <h3 data-uk="Скриптинг" data-en="Scripting">Скриптинг</h3>
+        <ul>
+          <li data-uk="[Python / Bash тощо]" data-en="[Python / Bash, etc.]">[Python / Bash тощо]</li>
+          <li data-uk="[додати]" data-en="[add]">[додати]</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="ctf">
+    <h2>CTF</h2>
+    <div class="ctf-grid">
+      <div class="ctf-row">
+        <span class="ctf-label mono" data-uk="команда" data-en="team">команда</span>
+        <span class="ctf-value placeholder" data-uk="[назва команди]" data-en="[team name]">[назва команди]</span>
+      </div>
+      <div class="ctf-row">
+        <span class="ctf-label mono" data-uk="роль" data-en="role">роль</span>
+        <span class="ctf-value" data-uk="капітан команди" data-en="team captain">капітан команди</span>
+      </div>
+      <div class="ctf-row">
+        <span class="ctf-label mono" data-uk="категорії" data-en="categories">категорії</span>
+        <span class="ctf-value placeholder" data-uk="[напр. web, forensics, crypto]" data-en="[e.g. web, forensics, crypto]">[напр. web, forensics, crypto]</span>
+      </div>
+      <div class="ctf-row">
+        <span class="ctf-label mono">CTFtime</span>
+        <a class="ctf-value" href="#" target="_blank" rel="noopener noreferrer">ctftime.org/team/your-id</a>
+      </div>
+    </div>
+    <p class="tagline" data-uk="Граю CTF та відповідаю за координацію команди — розподіл челенджів, стратегію на змаганні та розбір після завершення." data-en="I play CTF and coordinate the team — splitting up challenges, in-game strategy, and the post-event debrief.">Граю CTF та відповідаю за координацію команди — розподіл челенджів, стратегію на змаганні та розбір після завершення.</p>
+    <p style="margin-top: 20px;">
+      <a class="ctf-link" href="writeups.html" data-uk="Читати write-up'и" data-en="Read the write-ups">Читати write-up'и</a>
+    </p>
+  </section>
+
+  <section id="certs">
+    <h2 data-uk="Сертифікати" data-en="Certifications">Сертифікати</h2>
+    <div class="certs">
+      <span class="cert placeholder" data-uk="[ваш сертифікат]" data-en="[your certification]">[ваш сертифікат]</span>
+      <span class="cert placeholder" data-uk="+ додати" data-en="+ add">+ додати</span>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2 data-uk="Контакти" data-en="Contact">Контакти</h2>
+    <div class="contact-grid">
+      <div class="contact-row">
+        <span class="contact-label mono">email</span>
+        <a class="contact-value placeholder" id="email-link" href="#" rel="nofollow">[завантаження…]</a>
+      </div>
+      <div class="contact-row">
+        <span class="contact-label mono">telegram</span>
+        <a class="contact-value" href="#" target="_blank" rel="noopener noreferrer">@your_telegram</a>
+      </div>
+      <div class="contact-row">
+        <span class="contact-label mono">linkedin</span>
+        <a class="contact-value" href="#" target="_blank" rel="noopener noreferrer">linkedin.com/in/your-profile</a>
+      </div>
+      <div class="contact-row">
+        <span class="contact-label mono">github</span>
+        <a class="contact-value" href="#" target="_blank" rel="noopener noreferrer">github.com/your-username</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="footer-inner">
+    © 2026 Vitalii Yatskovskyi (varkut)
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
